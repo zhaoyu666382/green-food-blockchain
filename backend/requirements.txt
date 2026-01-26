@@ -1,36 +1,7 @@
-# FastAPI核心
-fastapi==0.109.0
-uvicorn[standard]==0.27.0
-pydantic==2.5.3
-pydantic-settings==2.1.0
-
-# 数据库
-sqlalchemy==2.0.25
-alembic==1.13.1
-
-# SQLite（默认，无需额外安装）
-# PostgreSQL
-# psycopg2-binary==2.9.9
-# MySQL
-# pymysql==1.1.0
-
-# 认证和安全
-python-jose[cryptography]==3.3.0
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+sqlalchemy==2.0.32
+pydantic-settings==2.4.0
+python-jose==3.3.0
 passlib[bcrypt]==1.7.4
-python-multipart==0.0.6
-
-# Redis（可选）
-# redis==5.0.1
-
-# 工具库
-python-dotenv==1.0.0
-qrcode[pil]==7.4.2
-pillow==10.2.0
-
-# 区块链相关
-# fabric-sdk-py==0.8.0  # Hyperledger Fabric SDK
-web3==6.15.1
-
-# 其他工具
-requests==2.31.0
-httpx==0.26.0
+python-multipart==0.0.9

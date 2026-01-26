@@ -1,0 +1,16 @@
+{
+  "difficulty": 2,
+  "chain": [
+    {
+      "index": 0,
+      "timestamp": "2026-01-26T03:05:25.617914",
+      "data": {
+        "message": "Genesis Block - Green Food Platform"
+      },
+      "previous_hash": "0",
+      "nonce": 102,
+      "hash": "001f7a7257d99b9a3fe62d6089f8cd213078eb978ce1570560f1d79a21f78180"
+    }
+  ],
+  "pending_transactions": []
+}
